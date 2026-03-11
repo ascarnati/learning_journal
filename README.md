@@ -1,0 +1,1 @@
+Beginning a learning journal to publish using Responsive Web Design.
