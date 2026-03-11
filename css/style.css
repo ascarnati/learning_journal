@@ -1,9 +1,29 @@
-html, 
+/* Global Styles */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
-    padding: 0;
+    padding: 1.5em;
+    font-family: 'Manrope', sans-serif;
+    line-height: 1.5;
+    color: #111
 }
 
 body {
     display: grid;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
