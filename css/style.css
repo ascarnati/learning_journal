@@ -9,7 +9,7 @@
 body {
     margin: 0;
     padding: 1.5em;
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Inter', sans-serif;
     line-height: 1.5;
     color: #111
 }
@@ -51,9 +51,40 @@ a {
 /* Hero Section */
 
 .hero {
-    background-image: url("../images/learning-journal-hero-background.png");
+    background-image: 
+    linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.1)
+    ),
+    url("../images/learning-journal-hero-background.png");
+
     background-size: cover;
     background-position: center;
     padding: 4em 2em;
     margin: 0 -1.5em 2.5em -1.5em;
+    color: whitesmoke;
+}
+
+/* Journal Entry Styles */
+.journal-entry {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 2em;
+    transition: box-shadow 0.3s ease;
+}
+
+.journal-entry img, .journal-entry-content {
+    width: 100%;
+    height: auto;
+    padding: 0.5em;
+}
+
+body {
+    display: grid;
+    gap: 2em;
 }
