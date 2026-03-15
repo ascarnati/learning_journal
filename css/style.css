@@ -91,9 +91,22 @@ body {
     gap: 2em;
 }
 
+/* Responsive Grid Layout */
+
 @media (min-width: 600px) {
     main {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .nav-toggle {
+        display: none;
+    }
+
+    .site-nav {
+        position: static;
+        height: auto;
+        width: auto;
+        display: flex;
     }
 }
 
