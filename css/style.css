@@ -7,7 +7,6 @@
 }
 
 body {
-    display: grid;
     margin: 0;
     padding: 1.5em;
     font-family: 'Inter', sans-serif;
@@ -24,6 +23,11 @@ img {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+main {
+    display: grid;
+    gap: 2em;
 }
 
 /* Header Styles */
@@ -85,4 +89,16 @@ a {
 body {
     display: grid;
     gap: 2em;
+}
+
+@media (min-width: 600px) {
+    main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 900px) {
+    main {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
