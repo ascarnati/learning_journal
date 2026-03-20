@@ -36,7 +36,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 2em;
+    margin-bottom: 0;
 }
 
 .journal-header nav a {
