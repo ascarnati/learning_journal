@@ -112,7 +112,7 @@ body {
     flex-direction: column;
     padding: 2em 1.5em;
     gap: 1.5em;
-    background-color: whitesmoke;
+    background-color: inherit;
     transform: translateX(-100%);
     transition: transform 0.3s ease;
 }
